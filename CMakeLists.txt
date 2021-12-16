@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(dispersion_tool C)
+project(executable C)
 set(TARGET ${PROJECT_NAME})
 
 set(CMAKE_C_STANDARD 99)
@@ -26,4 +26,4 @@ set(
         "ext/log_c/src/log.c"
 )
 include_directories(  ${CMAKE_SOURCE_DIR}/ext/log_c/src)
-add_executable(dispersion_tool ${SOURCES} ${HEADERS})
+add_executable(${TARGET} ${SOURCES} ${HEADERS})
