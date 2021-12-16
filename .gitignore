@@ -63,4 +63,5 @@ Mkfile.old
 dkms.conf
 bin/
 cmake-build-debug/
-logs
+logs/
+.idea/
